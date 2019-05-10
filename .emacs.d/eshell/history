@@ -1,0 +1,3 @@
+cp init-xah-fly-key.el xah-fly-keys.el
+ls
+rm init-xah-fly-key.el 

@@ -131,7 +131,14 @@
   (require 'init-shackle)
   (require 'init-dired)
   (require 'init-writting)
+  (require 'init-key-bind)
 
+
+  (require 'xah-fly-keys)
+
+  (xah-fly-keys-set-layout "qwerty")
+
+  (xah-fly-keys 1)
   ;; @see https://github.com/hlissner/doom-emacs/wiki/FAQ
   ;; Adding directories under "site-lisp/" to `load-path' slows
   ;; down all `require' statement. So we do this at the end of startup
